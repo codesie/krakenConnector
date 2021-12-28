@@ -27,8 +27,10 @@ These need to be generated on kraken.
 
 ```json
 {
+  "krakenConnector": {
     "api_key": "API-KEY-API-KEY from kraken",
     "secret": "API-SECRET-API-SECRET from kraken"
+  }
 }
 ```
 

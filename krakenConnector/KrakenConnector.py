@@ -59,8 +59,8 @@ class KrakenConnector:
         """
         with open(self.config_file) as file:
             config_content = json.load(file)
-        self.i_api_key = config_content["api_key"]
-        self.i_api_secret = config_content["secret"]
+        self.i_api_key = config_content["krakenConnector"]["api_key"]
+        self.i_api_secret = config_content["krakenConnector"]["secret"]
 
     def public_call(self, public_path, query_params):
         """
